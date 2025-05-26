@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Universe Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="universe-container">
+        <!-- Universe will be generated here -->
+    </div>
+
+    <!-- Modal for displaying celestial body information -->
+    <div id="modal-container" class="hidden">
+        <div id="modal">
+            <span id="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <div id="modal-content">
+                <p><strong>Population:</strong> <span id="population"></span></p>
+                <p><strong>Major Exports:</strong> <span id="exports"></span></p>
+                <p><strong>Major Imports:</strong> <span id="imports"></span></p>
+                <p><strong>Distance from Central Star:</strong> <span id="distance"></span> million km</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="universe.js"></script>
+</body>
+</html>
